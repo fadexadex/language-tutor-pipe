@@ -376,7 +376,7 @@ Format each suggestion as a clear, concise sentence without numbering or bullet 
         {!isTutorActive && (
           <div className="text-center py-8">
             <Languages className="h-12 w-12 text-primary mx-auto mb-4" />
-            <p className="text-lg font-medium">Click "Start Tutor" to begin language assistance</p>
+            <p className="text-lg font-medium">Click &quot;Start Tutor&quot; to begin language assistance</p>
             <p className="text-sm text-muted-foreground mt-2">
               The Language Tutor will analyze your learning context and provide relevant suggestions.
             </p>

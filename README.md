@@ -1,36 +1,32 @@
-# screenpipe playground
+# Language Tutor Assistant
 
-a flexible playground for displaying, testing, and exploring components with their associated code, documentation, and ai prompts.
+A real-time language learning assistant that analyzes your screen content and provides contextual language help using AI.
 
-<!-- <img width="1312" alt="screenshot of component playground" src="https://github.com/user-attachments/assets/3e5abd07-0a3c-4c3b-8351-5107beb4fb10"> -->
+![Language Tutor Assistant](public/image.png)
 
-## features
+## Overview
 
-- **interactive component display**: view rendered components in action
-- **code inspection**: examine the full source code of each component
-- **raw output**: see the raw api responses and data
-- **ai prompt visibility**: view the prompts and context used to generate components
-- **collapsible interface**: toggle component visibility for a cleaner workspace
+Language Tutor Assistant is a Next.js application that uses Screenpipe to capture your screen content while you're learning a language. It analyzes what you're seeing, detects the language context, and provides helpful suggestions, corrections, and explanations to enhance your language learning experience.
 
-## usage
+## Features
 
-the playground allows you to:
+- **Real-time Screen Analysis**: Captures and analyzes your screen content as you learn
+- **Language Context Detection**: Automatically identifies source and target languages
+- **Learning Platform Recognition**: Detects popular language learning platforms like Duolingo, Babbel, etc.
+- **Adaptive Assistance**: Provides different types of help based on your learning context:
+  - Grammar corrections and explanations
+  - Alternative expressions
+  - Vocabulary insights
+  - Cultural context
+- **Interactive Help**: Ask specific questions about what you're learning
+- **Multiple Languages**: Supports English, French, Spanish, German, Italian, and more
 
-1. view rendered components in their intended state
-2. inspect the raw output from api calls
-3. study the complete component code
-4. examine the ai prompts and context used to generate components
+## Prerequisites
 
-## component structure
+- Node.js 18 or later
+- Screenpipe service running locally (typically on port 3030)
+- Groq API key for AI language assistance
 
-each playground card includes:
-- component title and collapsible interface
-- tabs for different views (rendered output, raw output, code, ai prompt)
-- copy functionality for sharing prompts and context
+## Environment Variables
 
-## getting started
-
-1. install this pipe from UI and play with it
-2. follow docs to create your pipe (it will create this app) (https://docs.screenpi.pe/docs/plugins)
-3. modify code from ready-to-use-examples directory
-
+The application requires the following environment variables:
